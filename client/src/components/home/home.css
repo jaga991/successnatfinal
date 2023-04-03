@@ -1,0 +1,31 @@
+#heroImg {
+    padding: 0;
+    opacity: 50%;
+}
+
+#heroIntro {
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    text-align: center;
+    font-family: var(--hero-font);
+    font-weight: 700;
+}
+
+#heroIntro a {
+    background: rgb(62,101,205);
+    background: linear-gradient(14deg, rgba(62,101,205,1) 10%, rgba(34,68,161,1) 25%, rgba(70,58,170,1) 41%, rgba(75,83,189,1) 54%, rgba(52,49,172,1) 74%);
+    color: white;
+    padding: 0.5em;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.why-us-card{
+    background-color: violet;
+}
+
+.card-img{
+    max-width: 80px;
+}

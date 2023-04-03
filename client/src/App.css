@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Montserrat:wght@700&family=Poppins:wght@400;700&family=Roboto+Slab:wght@700;800&family=Roboto:wght@400;700&display=swap');
+:root {
+  --primary-color: #16166B;
+  --secondary-color: #6096BA;
+  --tertiary-color: #A3CEF1;
+  --quaternary-color: #8B8C89;
+  --nav-font: 'Inter Tight', 'sans-serif';
+  --hero-font: 'Roboto Slab', 'serif';
+  --about-header-font: 'Montserrat', 'sans-serif';
+  --about-text-font: 'Roboto', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.h1-style {
+  font-family: var(--about-header-font)
+}
+
+.App {
+  padding-top: 75px;
+}
+
+.row-padding {
+  padding: 40px 0 40px 0;
+}
+
+.background-dark{
+  background-color: var(--primary-color)
+}
+
+.background-light{
+  background-color: var(--tertiary-color);
+}
+
+p {
+  margin: 0
+}
